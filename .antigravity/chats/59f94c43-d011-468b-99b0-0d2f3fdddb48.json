@@ -3,7 +3,7 @@
   "name": "Tu parles français",
   "createdAt": "2026-10-27T14:54:10.995Z",
   "filename": "59f94c43-d011-468b-99b0-0d2f3fdddb48.json",
-  "geminiStarted": false,
+  "geminiStarted": true,
   "messages": [
     {
       "id": "e6b950ed-effc-4131-b9f4-0c9c862d8745",
@@ -14,6 +14,42 @@
       "client_type": "gemini-bridge",
       "parent_message_id": null,
       "created_at": "2026-10-27T15:37:25.654Z",
+      "sender": "ios",
+      "is_cancelled": false
+    },
+    {
+      "id": "a5cbc3ec-da81-42b1-be85-ea64c91b6e13",
+      "role": "agent",
+      "content": "De rien ! Comment puis-je vous aider aujourd'hui ? Souhaitez-vous créer ou modifier quelque chose sur votre projet ?",
+      "status": "completed",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": "e6b950ed-effc-4131-b9f4-0c9c862d8745",
+      "created_at": "2026-10-27T15:37:47.202Z",
+      "sender": "macOS",
+      "is_cancelled": false
+    },
+    {
+      "id": "f55d235e-4f7f-407a-b023-7f3116ae20e9",
+      "role": "user",
+      "content": "Je veux creer un site pour notre hadara qui s’appelle hadara liwaoul hamdi",
+      "status": "cancelled",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-27T15:38:43.009Z",
+      "sender": "ios",
+      "is_cancelled": true
+    },
+    {
+      "id": "71223b3c-7415-4e6b-98f3-76a3d81b6cc6",
+      "role": "user",
+      "content": "Je veux creer un site pour notre hadara qui s’appelle hadara liwaoul hamdi",
+      "status": "pending",
+      "model": "gemini-3.8-flash-high",
+      "client_type": "gemini-bridge",
+      "parent_message_id": null,
+      "created_at": "2026-10-27T15:39:49.011Z",
       "sender": "ios",
       "is_cancelled": false
     }
